@@ -1,5 +1,5 @@
 # edible-recipes
 
-# Emma Alfaro
-# Ozhina Aghdasi
-# Vincent Nguyen
+###### Emma Alfaro
+###### Ozhina Aghdasi
+###### Vincent Nguyen
