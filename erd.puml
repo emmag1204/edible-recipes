@@ -1,0 +1,30 @@
+@startuml erd
+' https://plantuml.com/ie-diagram
+skinparam backgroundColor #FFFFFF
+' skinparam handwritten true
+hide circle
+skinparam linetype ortho
+
+!$comments=%false()
+
+entity "sections" as se {
+    *name: str 🔑
+    ---
+    image: image
+}
+
+entity "recipe" as re {
+    *_id: oid 🔑
+    ---
+    section: str 🔑
+    name: str
+    description: str
+    image: image
+    ingredients: str
+    steps: str
+    servings: int
+}
+
+se ||-ri-o{ re
+
+@enduml
